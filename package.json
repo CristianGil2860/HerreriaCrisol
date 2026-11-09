@@ -1,0 +1,11 @@
+{
+  "name": "herreria-crisol-fullstack",
+  "version": "1.0.0",
+  "description": "Proyecto completo de Herrería Crisol: React (Client) + Node/Express (Server) + MySQL",
+  "scripts": {
+    "server": "node server/src/server.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build"
+  }
+}
+
